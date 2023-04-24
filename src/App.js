@@ -21,7 +21,7 @@ function App() {
         <Route path="/search" element={<Searchthing />}/>
         <Route path="/extraInfo" element={<Info />}/>
       </Routes>
-      <Link to="/extrainfo">Result nog found</Link>
+      <Link to="/extrainfo">Result not found</Link>
       
 
       </div>
