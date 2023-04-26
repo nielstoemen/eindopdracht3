@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-
 import axios from "axios";
 import {Link, Route, Routes} from "react-router-dom";
 import "./searchthing.css";
@@ -25,7 +24,7 @@ export function Searchthing()
 
 
     return <div className="searchbar">
-    <h3>Search Filter</h3>
+    <h3>zoek op naam:</h3>
     <input
      style={{ width: "30%", height: "25px" }}
      type="text"

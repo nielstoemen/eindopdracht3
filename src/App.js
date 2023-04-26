@@ -14,17 +14,25 @@ function App() {
 
     <>
     <div className="homeApp">
-      <Link to="/search">Search</Link> <br></br>
+      <button className="searchbutton">
+      <Link to="/search">Search Page</Link> <br></br>
+      </button>
 
 
       <Routes>
         <Route path="/search" element={<Searchthing />}/>
         <Route path="/extraInfo" element={<Info />}/>
       </Routes>
-      <Link to="/extrainfo">Result not found</Link>
+      
       
 
+
       </div>
+      <footer className="footer1">
+        <button className="resultnotfountbutton">
+        <Link to="/extrainfo">no results?</Link>
+        </button>
+      </footer>
     </>
   );
 }
